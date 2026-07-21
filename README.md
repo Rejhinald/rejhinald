@@ -19,6 +19,9 @@ avorino.com growth stack · hanami portfolio (procedural Three.js floating-islan
 
 arwin@osaka:~$ cat stack.txt
 Next.js · React 19 · TypeScript · Tailwind v4 · GSAP · Three.js · Bun · Hono · PostgreSQL · Cloudflare
+
+arwin@osaka:~$ cat ai.txt
+Claude Code · Gemini API · OpenAI Codex — LLM-integrated features & agentic workflows
 ```
 
 <div align="center">
@@ -55,7 +58,9 @@ Next.js · React 19 · TypeScript · Tailwind v4 · GSAP · Three.js · Bun · H
 
 **Backend** — ![Bun](https://img.shields.io/badge/Bun-20242A?style=flat-square&logo=bun&logoColor=F3EEE6) ![Hono](https://img.shields.io/badge/Hono-20242A?style=flat-square&logo=hono&logoColor=E36002) ![Django](https://img.shields.io/badge/Django-20242A?style=flat-square&logo=django&logoColor=44B78B) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-20242A?style=flat-square&logo=postgresql&logoColor=4169E1) ![Drizzle](https://img.shields.io/badge/Drizzle-20242A?style=flat-square&logo=drizzle&logoColor=C5F74F)
 
-**Platform** — ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-20242A?style=flat-square&logo=cloudflareworkers&logoColor=F38020) ![Vercel](https://img.shields.io/badge/Vercel-20242A?style=flat-square&logo=vercel&logoColor=F3EEE6) ![Gemini](https://img.shields.io/badge/Gemini_AI-20242A?style=flat-square&logo=googlegemini&logoColor=8E75B2)
+**Platform** — ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-20242A?style=flat-square&logo=cloudflareworkers&logoColor=F38020) ![Vercel](https://img.shields.io/badge/Vercel-20242A?style=flat-square&logo=vercel&logoColor=F3EEE6)
+
+**AI & LLMs** — ![Claude Code](https://img.shields.io/badge/Claude_Code-20242A?style=flat-square&logo=claude&logoColor=D97757) ![Gemini API](https://img.shields.io/badge/Gemini_API-20242A?style=flat-square&logo=googlegemini&logoColor=8E75B2) ![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-20242A?style=flat-square&logo=openai&logoColor=F3EEE6) ![LLM Integration](https://img.shields.io/badge/LLM_Integration-20242A?style=flat-square&logoColor=F3EEE6)
 
 <div align="center">
 
