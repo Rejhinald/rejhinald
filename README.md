@@ -59,17 +59,6 @@ Next.js · React 19 · TypeScript · Tailwind v4 · GSAP · Three.js · Bun · H
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Rejhinald&show_icons=true&hide_border=true&bg_color=00000000&title_color=D9432C&text_color=F3EEE6&icon_color=C2A05B&ring_color=D9432C">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rejhinald&show_icons=true&hide_border=true&bg_color=00000000&title_color=D9432C&text_color=20242A&icon_color=C2A05B&ring_color=D9432C" alt="GitHub stats" height="165">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Rejhinald&layout=compact&hide_border=true&bg_color=00000000&title_color=D9432C&text_color=F3EEE6&langs_count=8">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rejhinald&layout=compact&hide_border=true&bg_color=00000000&title_color=D9432C&text_color=20242A&langs_count=8" alt="Top languages" height="165">
-</picture>
-
-<br><br>
-
 — 桜 —
 
 *Osaka-inspired · Pampanga-built*
