@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Arwin Gerard Miclat — Computer Engineer and Web Developer">
+  <style>
+    .petal { animation: drift 11s linear infinite; transform-origin: center; }
+    .p2 { animation-duration: 14s; animation-delay: -4s; }
+    .p3 { animation-duration: 9s; animation-delay: -2s; }
+    .p4 { animation-duration: 13s; animation-delay: -7s; }
+    .p5 { animation-duration: 10s; animation-delay: -5s; }
+    .p6 { animation-duration: 15s; animation-delay: -9s; }
+    @keyframes drift {
+      0%   { transform: translate(0px, -30px) rotate(0deg); opacity: 0; }
+      10%  { opacity: 0.9; }
+      90%  { opacity: 0.9; }
+      100% { transform: translate(-60px, 290px) rotate(300deg); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .petal { animation: none; opacity: 0.85; }
+    }
+  </style>
+
+  <!-- Washi ground -->
+  <rect width="1200" height="260" fill="#F3EEE6"/>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    <feComposite operator="over" in2="SourceGraphic"/>
+  </filter>
+  <rect width="1200" height="260" fill="#F3EEE6" filter="url(#grain)" opacity="0.6"/>
+
+  <!-- Tokonoma frame: sumi border + gold hairline -->
+  <rect x="10" y="10" width="1180" height="240" fill="none" stroke="#20242A" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1168" height="228" fill="none" stroke="#C2A05B" stroke-width="0.75" opacity="0.7"/>
+
+  <!-- Eyebrow -->
+  <text x="70" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="6" fill="#5E6870">ようこそ · WELCOME</text>
+  <rect x="70" y="100" width="56" height="1.5" fill="#C2A05B"/>
+
+  <!-- Name -->
+  <text x="70" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#20242A" letter-spacing="1">Arwin Gerard Miclat</text>
+
+  <!-- Tagline -->
+  <text x="70" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#5E6870" letter-spacing="2">Computer Engineer &amp; Web Developer · Angeles City, PH</text>
+
+  <!-- Hanko seal 桜 -->
+  <g transform="translate(1044, 92) rotate(-4)">
+    <rect x="-32" y="-32" width="64" height="64" rx="9" fill="#D9432C"/>
+    <text x="0" y="13" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#F3EEE6">桜</text>
+  </g>
+
+  <!-- Tanzaku: vertical 大阪 -->
+  <g font-family="Georgia, serif" font-size="15" fill="#5E6870">
+    <line x1="1128" y1="150" x2="1128" y2="216" stroke="#C2A05B" stroke-width="0.75" opacity="0.8"/>
+    <text x="1140" y="168">大</text>
+    <text x="1140" y="190">阪</text>
+    <text x="1141" y="212" font-size="9" letter-spacing="1" fill="#8C9A97">OSAKA</text>
+  </g>
+
+  <!-- Drifting petals -->
+  <g>
+    <path class="petal"    d="M420 40 C428 46 430 60 420 68 C410 60 412 46 420 40 Z" fill="#E8A0B4"/>
+    <path class="petal p2" d="M560 20 C567 25 569 37 560 44 C551 37 553 25 560 20 Z" fill="#F4CDD6"/>
+    <path class="petal p3" d="M710 55 C716 60 718 70 710 76 C702 70 704 60 710 55 Z" fill="#E8A0B4"/>
+    <path class="petal p4" d="M830 25 C838 31 840 45 830 53 C820 45 822 31 830 25 Z" fill="#FFFFFF"/>
+    <path class="petal p5" d="M930 70 C936 75 938 85 930 91 C922 85 924 75 930 70 Z" fill="#F4CDD6"/>
+    <path class="petal p6" d="M640 90 C646 95 648 105 640 111 C632 105 634 95 640 90 Z" fill="#E8A0B4"/>
+  </g>
+</svg>
