@@ -12,7 +12,7 @@ arwin@osaka:~$ whoami
 Computer Engineer & Web Developer — cinematic, high-performance interfaces
 
 arwin@osaka:~$ uptime
-shipping since 2024 · currently Associate Developer @ Avorino
+shipping since 2024 · currently Fullstack Developer @ Avorino
 
 arwin@osaka:~$ currently_shipping
 avorino.com growth stack · hanami portfolio (procedural Three.js floating-island hero)
