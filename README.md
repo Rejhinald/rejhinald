@@ -51,6 +51,7 @@ Claude Code · Gemini API · OpenAI Codex — LLM-integrated features & agentic 
 | 参 | **[ADUPortal](https://aduportal.com)** | ADU planning platform — cost estimator, loan qualifier, and ROI calculators sharing one project file. |
 | 肆 | **[SimpleProjex](https://simpleprojex.com)** | Construction proposal SaaS — marketing site with live-pricing proposals pitch (Next.js + Django Ninja platform behind it). |
 | 伍 | **[KKB](https://kkb-three.vercel.app)** | Neobrutalist bill-splitting app — client-only, localStorage, QR share. Kanya-kanyang bayad. |
+| 陸 | **[Daily Learnings](https://daily-learnings.vercel.app)** | One software-engineering concept a day, pulled apart from my own production code. |
 
 ## 道具 · Stack
 
